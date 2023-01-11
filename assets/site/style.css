@@ -1,0 +1,401 @@
+body {margin:0;
+font-family: sans-serif;}
+
+.banner img{
+    height:250px
+}
+.banner p{
+    margin-top:180px;
+    margin-bottom:auto; 
+    font-size:2em;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color:#00345b;
+    color:white;
+    padding-right:25px;
+    
+}
+.care{
+    color:#274355;
+    text-align:right;
+    margin-right:25px;
+    margin-bottom:50px;
+    font-size:1.3em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between ;
+    margin:15px;
+}
+
+.bar a{
+    background-color: #016e9d;
+    padding: 15px 50px;
+    margin-right:15px;
+    color:white;
+    text-decoration: none;
+}
+
+.panier{
+    width:75px;
+    margin-top:-50px;
+    background-color:white;
+
+}
+.panier img{
+    margin-right:10px;
+}
+.ssPanier{
+    font-size:20px;
+    margin-top:-3px;
+    text-align: center;
+    color:#328ab0;
+}
+.panier a{
+    text-decoration: none;
+}
+
+.imgproduit{
+	max-width: 200px;
+}
+.notif{
+    float:right;
+    margin-bottom:-25px;
+    background-color:#328ab0 ;
+    color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position:relative;
+}
+.notif p{
+    margin-top:5px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.produit{
+    border-bottom: 1px solid black ;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5px;
+}
+.case{
+    display:flex;
+    justify-content: space-between ;
+
+}
+.nomProduit{
+    font-size:1.8em;
+    color:#09293d;
+    font-weight: bold;
+}
+.txtProduit a{
+    text-decoration: none;
+    color:#000d8a;
+}
+.txtProduit a:visited{
+    color:#000d8a;
+}
+.description{
+    color:#a6a6a6;
+    font-size:18px;
+    margin-top:-15px;
+}
+.avis{
+    text-align: right;
+    font-size:0.5em;
+
+}
+
+.buy{
+  font-size:1.8em;
+  width: 250px;
+  text-align: right;
+}
+.prix{
+    font-size:1em;
+    font-weight: bold; 
+    padding-top:75px;
+}
+.panierr{
+    width:70%;
+    justify-content: space-between ;
+    border-style: solid;
+    border-color:#95bdd5;
+    border-width: 1.5px;
+    margin-left:15px;
+    margin-right:15px;
+    padding:15px 15px;
+    height:100%;
+}
+
+.panierr th{
+    font-weight: normal;
+}
+
+.buy img{
+    width:50px;
+    background-color:#016e9d;
+    padding:4px;
+    border-radius: 5px;
+    right:0;
+    float:right;
+    vertical-align: bottom;
+}
+
+.txtProduit{
+    text-align: left;
+    width: 100%;
+}
+.premierLpanier{
+    color:#a9a9a9;
+    border-bottom-style:solid;
+    border-bottom-color:#95bdd5;
+    border-bottom-width:1px;
+}
+.premierLpanier th{
+    font-weight: bolder;
+}
+.panierr table{
+    border-collapse: collapse;
+    width:100%;
+}
+.achat{
+    width:25px;
+    background-color:#016e9d;
+    padding:3px;
+    border-radius:3px;
+}
+
+.imgprod{
+    width:75px;
+}
+
+.recap{
+    width:25%;
+    border:1px solid #95bdd5;
+    text-align: left;
+    padding:10px;
+    height:100%;
+}
+.recap img{
+    width:200px;
+}
+
+.titre{
+    font-size:1.3em;
+    color:#203d4f ;
+    font-weight: bolder;
+}
+.miaou{
+    display:flex;
+}
+.recap table{
+    border-collapse: collapse;
+    width:100%;
+    margin-bottom:35px;
+}
+.recap th{
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom:8px;
+}
+.recap a{
+    background-color: #03bffe;  
+    width: 100%;
+    padding-left: 40%;
+    padding-right:40%;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:4px;
+    color:white;
+    text-decoration: none;
+}
+.price{
+    text-align: right;
+}
+.priceTot{
+    text-align:right;
+    font-weight: bolder !important;
+    color:#005ca5;
+    font-size:1.5em;
+}
+.désignation{
+    min-width:45%;
+}
+.recap img{
+    width:100%; 
+}
+.modesPaiement{
+    margin-top:35px;
+}
+.PrixU{
+    min-width:15%;
+}
+.Qte{
+    min-width:15%;
+}
+.ttc{
+    min-width:15%;
+}
+
+.totrecap{
+    border-top:1px solid #95bdd5;
+}
+.commentaires{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.commentaires table{
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align:left;
+}
+.commentaires th{
+    font-weight: normal;
+}
+.note{
+    color:#005ca5;
+    font-weight: bold !important;
+    font-size:1.1em;
+}
+.com{
+    width:82%;
+    
+}
+.interet{
+    margin-top:35px;
+    font-weight: bolder;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+.rien{
+    margin-top:35px;
+    margin-bottom:150px;
+    text-align:center;
+    font-weight: bolder;
+}
+.containerSim{
+    display: flex;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+}
+.titreSim{
+    font-weight: bold;
+    color:#203d4f;
+}
+.simPrix{
+    font-size:1.2em ;
+}
+.card a{
+    text-decoration: none;
+}
+.card a:visited{
+    color:black;
+}
+.card{
+    text-align: center;
+}
+.card img {
+    width:150px;
+}
+
+.titreAcc{
+    font-weight: bold;
+    color:#203d4f;
+    
+}
+.Acc{
+    width:150px;
+}
+.accueil{
+    width:1250px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.containerAcc{
+    display: flex;
+    justify-content: space-between;
+}
+.cardAcc a{
+    text-decoration: none;
+}
+.cardAcc a:visited{
+    color:black;
+}
+.cardAcc{
+    text-align: center;
+    width:33%;
+    height:150px;
+}
+.panierr a{
+    text-decoration: none;
+    color:#000d8a;
+}
+.panierr a:visited{
+    color:#000d8a;
+}
+.containerAccueil{
+    height:350px;
+}
+.containerAccueilB{
+    height:100px;
+}
+.titAccueil{
+    font-size:1.4em;
+    font-weight: bold;
+}
+.magasins{
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+.magasins img{
+    width:1000px !important;
+}
+.contact{
+    display:flex;
+    width:750px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+}
+.contact p{
+    text-align:center;
+}
+.ac img{
+    height:300px;
+}
+.eol img{
+    height:300px;
+}
+
+.nom{
+    font-size:1.4em;
+    font-weight: bolder;
+}
+.zej{
+    margin-top:5px;
+    color:gray;
+    font-size:1.2em;
+}
+footer{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: #00345b;
+    margin-top:25px;
+}
